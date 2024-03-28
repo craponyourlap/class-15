@@ -70,6 +70,7 @@ tacha just read the slides for details but here is the rundown:
 		n.setData(val);
 		n.setNext(head);
 		head = n;
+		size++;
 	}
 	
 	the second one, you have to set the next of the node to your new node, then the next of your new
@@ -105,7 +106,8 @@ tacha just read the slides for details but here is the rundown:
 		size++;
 	}
 	
-	2.3 deletion
+	2.3 deletion -> i stopped taking notes at this point because he was going too fast and it's basically the same concept as insertion
+	just that you have to 'delete' (it's not really deleting, you just change the .next of the node before the one you're deleting
 	
 	
 	
